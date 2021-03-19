@@ -44,3 +44,6 @@ for i in include:
 os.system("cd '" + sys.argv[1] + "'")
 os.system(comando)
 print(comando)
+print("\n\n")
+os.system("./exe" + str(quanti_exe))
+print("\n\n")
